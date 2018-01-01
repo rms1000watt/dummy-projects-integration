@@ -1,0 +1,7 @@
+version: '3'
+services:
+  dummy-golang-project:
+    container_name: dummy-golang-project
+    image: rms1000watt/dummy-golang-project
+    ports:
+    - 9999:9999
