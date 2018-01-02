@@ -5,3 +5,9 @@ services:
     image: rms1000watt/dummy-golang-project
     ports:
     - 9999:9999
+
+  dummy-nodejs-project:
+    container_name: dummy-nodejs-project
+    image: rms1000watt/dummy-nodejs-project
+    ports:
+    - 3000:3000
